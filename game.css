@@ -1,37 +1,67 @@
-body
-{
-	background-image: url(https://img.freepik.com/free-vector/realistic-math-chalkboard-background_23-2148154055.jpg?size=626&ext=jpg);
+body#main {
+    background-image: url(https://img.freepik.com/free-vector/realistic-math-chalkboard-background_23-2148154055.jpg?size=626&ext=jpg);
 }
 
-.login_div1 , .login_div2
-	{
-		background: white;
-		padding: 10px;
-		float: none;
-		border-radius: 15px;
-	}
-
-
-#player1_name , #player2_name
-{
-	display: inline-block;
-	margin-left: 20px;
+body#game {
+    background-image: url(https://www.bing.com/images/search?=&ccid=%&id=6E227EAFB3EAA3A711CBD5341FE0AD978FBB5EAD&thid=OIP.G2O_3rbqyQXEJELPZ8D38AHaEK&mediaurl=https%3a%2f%2fi1.wp.com%2fwww.aplustopper.com%2fwp-content%2fuploads%2f2019%2f06%2fMaths.png%3ffit%3d560%252C315%26ssl%3d1&exph=315&expw=560&q=maths&simid=607991250371872280&ck=294D4C38E1B7177D9BADADB855496A36&selectedIndex=6&FORM=IRPRST&ajaxhist=0);
 }
 
-#word
-{
-	width: 60%;
+.login_div1,
+.login_div2 {
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
 }
-#word_display
-{
-	letter-spacing: 5px;
+
+#player1_name,
+#player2_name {
+    display: inline-block;
+    margin-left: 20px;
 }
-#output
-{
-background: white;
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
+
+#word {
+    width: 60%;
+}
+
+#word_display {
+    letter-spacing: 5px;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+.name {
+    color: black;
+    font-weight: 600;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+button {
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+.number-head {
+    color: black;
+    font-weight: 600;
 }
